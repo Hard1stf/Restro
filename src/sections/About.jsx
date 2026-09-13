@@ -31,17 +31,22 @@ const About = () => {
             </Animated>
 
             <Animated delay={0.2}>
-              <p className='text-zinc-500 max-w-sm mt-4.5'>
-                We combine fresh local ingredients, creative recipes and elegant presentation to deliver a memorable experience with every visit.
+              <p className="text-zinc-500 max-w-sm mt-4.5">
+                We combine fresh local ingredients, creative recipes and elegant
+                presentation to deliver a memorable experience with every visit.
               </p>
             </Animated>
 
             <Animated className="mt-9 bg-orange-500 text-white p-2 pr-8 rounded-lg flex items-center gap-3 w-fit">
-                <img src="../../public/assets/about.png" alt="Bistro Royal Location Preview" className='rounded-lg shrink-0 object-cover size-15'/>
-                <div className='flex flex-col gap-2'>
-                    <p className='font-medium'>Bistro Royal, NY</p>
-                    <a href="#">View on map</a>
-                </div>
+              <img
+                src="../../public/assets/about.png"
+                alt="Bistro Royal Location Preview"
+                className="rounded-lg shrink-0 object-cover size-15"
+              />
+              <div className="flex flex-col gap-2">
+                <p className="font-medium">Bistro Royal, NY</p>
+                <a href="#">View on map</a>
+              </div>
             </Animated>
           </div>
         </div>
