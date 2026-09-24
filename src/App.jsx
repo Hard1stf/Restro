@@ -7,6 +7,7 @@ import Dishes from './sections/Dishes';
 import Features from './sections/Features';
 import BookingProcess from './sections/BookingProcess';
 import Timing from './sections/Timing';
+import TestimonialSection from './sections/TestimonialSection';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Features />
       <BookingProcess />
       <Timing />
+      <TestimonialSection />
     </>
   );
 };
