@@ -5,7 +5,7 @@ import { Plus, X } from 'lucide-react';
 const FAQs = () => {
   return (
     <>
-      <section id="FAQs" className="px-auto mt-44">
+      <section id="faq" className="px-auto mt-44">
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-14">
             <Animated delay={0.2}>
