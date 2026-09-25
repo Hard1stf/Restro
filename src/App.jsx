@@ -10,6 +10,7 @@ import Timing from './sections/Timing';
 import TestimonialSection from './sections/TestimonialSection';
 import FAQs from './sections/FAQs';
 import CTA from './sections/CTA';
+import Footer from './sections/Footer';
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
       <TestimonialSection />
       <FAQs />
       <CTA />
+      <Footer />
     </>
   );
 };
