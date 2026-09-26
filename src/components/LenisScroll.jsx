@@ -4,12 +4,10 @@ import { useEffect } from 'react';
 const LenisScroll = () => {
   useEffect(() => {
     const lenis = new Lenis({
-      duration: 1.2,
+      lerp: 0.1,
       smoothWheel: true,
       syncTouch: false,
-      anchors: {
-        offset: -120,
-      },
+      anchors: { offset: -120 },
     });
     const raf = (time) => {
       lenis.raf(time);
