@@ -3,27 +3,27 @@ import Animated from '../components/Animated';
 
 const floatingDishes = [
   {
-    src: '../../public/assets/dish1.png',
+    src: '/assets/dish1.png',
     alt: 'dish-1',
     className: 'top-6 left-4 md:top-10 md:left-[6%] lg:left-[10%]',
   },
   {
-    src: '../../public/assets/dish2.png',
+    src: '/assets/dish2.png',
     alt: 'dish-2',
     className: 'top-8 right-4 md:top-12 md:right-[8%] lg:right-[12%]',
   },
   {
-    src: '../../public/assets/dish3.png',
+    src: '/assets/dish3.png',
     alt: 'dish-3',
     className: 'bottom-6 left-10 md:bottom-10 md:left-[18%] lg:left-[22%]',
   },
   {
-    src: '../../public/assets/dish4.png',
+    src: '/assets/dish4.png',
     alt: 'dish-4',
     className: 'bottom-8 right-10 md:bottom-12 md:right-[18%] lg:right-[20%]',
   },
   {
-    src: '../../public/assets/dish5.png',
+    src: '/assets/dish5.png',
     alt: 'dish-5',
     className:
       'top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 md:top-0 md:-translate-y-1/2',

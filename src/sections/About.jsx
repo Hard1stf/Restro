@@ -8,7 +8,7 @@ const About = () => {
           {/* Left side: Image */}
           <Animated scale={0.8} y={0}>
             <img
-              src="../../public/assets/about.png"
+              src="/assets/about.png"
               alt="Dish"
               className="max-w-137 w-full h-full object-cover rounded-3xl"
             />
@@ -17,11 +17,11 @@ const About = () => {
           {/* Right side: Text content */}
           <div>
             <Animated scale={0.8} y={0} className="flex items-center gap-2">
-              <img src="../../public/assets/iconL.png" alt="iconL" />
+              <img src="/assets/iconL.png" alt="iconL" />
               <span className="font-medium uppercase">
                 CRAFTED WITH PASSION
               </span>
-              <img src="../../public/assets/iconR.png" alt="iconR" />
+              <img src="/assets/iconR.png" alt="iconR" />
             </Animated>
 
             <Animated>
@@ -39,7 +39,7 @@ const About = () => {
 
             <Animated className="mt-9 bg-orange-500 text-white p-2 pr-8 rounded-lg flex items-center gap-3 w-fit">
               <img
-                src="../../public/assets/about.png"
+                src="/assets/about.png"
                 alt="Bistro Royal Location Preview"
                 className="rounded-lg shrink-0 object-cover size-15"
               />

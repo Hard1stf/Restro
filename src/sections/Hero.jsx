@@ -2,16 +2,16 @@ import { Star } from 'lucide-react';
 import Animated from '../components/Animated';
 
 const avatar = [
-  '/public/assets/user-1.jpeg',
-  '/public/assets/user-2.jpeg',
-  '/public/assets/user-3.jpeg',
-  '/public/assets/user-4.jpeg',
+  '/assets/user-1.jpeg',
+  '/assets/user-2.jpeg',
+  '/assets/user-3.jpeg',
+  '/assets/user-4.jpeg',
 ];
 
 const Hero = () => {
   return (
     <>
-      <section className="flex flex-col items-center min-h-screen justify-center bg-[url('/public/assets/heroBanner.png')] bg-cover bg-center bg-no-repeat px-4 pt-20">
+      <section className="flex flex-col items-center min-h-screen justify-center bg-[url('/assets/heroBanner.png')] bg-cover bg-center bg-no-repeat px-4 pt-20">
         <Animated y={-20} delay={0.2}>
           <p className="text-orange-600">WHERE FLAVOR MEETS ELEGANCE</p>
         </Animated>

@@ -19,7 +19,7 @@ const Navbar = () => {
       <nav className={`fixed top-0 z-20 px-auto w-full transition-all duration-300 ${scroll ? 'bg-white/60 backdrop-blur-md' : 'bg-transparent'}`}>
         <div className="flex items-center justify-between font-medium py-4 mx-auto max-w-7xl">
           <a href="/">
-            <img src="/public/assets/logo.svg" alt="logo" />
+            <img src="/assets/logo.svg" alt="logo" />
           </a>
 
           {/* desktop navigation links */}

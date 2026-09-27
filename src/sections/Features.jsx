@@ -50,7 +50,7 @@ const Features = () => {
 
           <Animated x={50} y={0}>
             <img
-              src="../../public/assets/chef.png"
+              src="/assets/chef.png"
               alt="chef"
               className="w-full max-w-sm h-111 object-cover rounded-3xl"
             />

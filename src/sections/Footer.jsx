@@ -12,7 +12,7 @@ const Footer = () => {
             {/* Col-1: Brand and social */}
             <div className="flex flex-col items-start text-left">
               <Animated>
-                <img src="../../public/assets/logo.svg" alt="logo" />
+                <img src="/assets/logo.svg" alt="logo" />
               </Animated>
 
               <Animated delay={0.2}>
